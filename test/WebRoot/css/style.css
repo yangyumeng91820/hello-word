@@ -1,0 +1,179 @@
+body{
+		padding: 0;
+		margin: 0;
+		background-color: #fff;
+		font-family: "微软雅黑";
+		font-size: 24px; 
+		color: #111;
+		text-align: center;
+}
+ul {list-style:none;margin: 0;padding: 0;}
+a img { border:none; }
+code{ font-style:normal;font-weight:normal;}
+
+/*** 通用配置 *********************************/
+.box{
+	width: 98%;
+	margin: 0 auto;
+	padding: 0.5em 0;
+	overflow: hidden;
+}
+
+
+/*** 页头 ******************************************************************/
+header{
+	padding: 0.5em 0;
+	font-size: 1.4em;
+	background-color: #ddd;
+	border-bottom: 1px solid #bbb;
+}
+
+
+/*** 幻灯片 ******************************************************************/
+.swiper-container>.swiper-wrapper>.swiper-slide>img{width: 100%;}
+
+
+/*** 简介区 ******************************************************************/
+body>article.briefing{
+	text-align: left;
+	line-height: 1.4em;
+}
+
+/*** 标签区 ******************************************************************/
+body>article.tag{
+	text-align: left;	
+	overflow:visible;
+	overflow:auto;
+	zoom:1;
+}
+body>article.tag>div.icon{
+	float: left;
+	width: 6%;
+	height: 32px;
+	overflow: hidden;
+}
+body>article.tag>div.icon>img{
+	margin-top: 4px;
+}
+body>article.tag>div.content{
+	float: right;
+	width: 94%;
+	overflow: hidden;
+}
+body>article.tag>div.content>a{
+	margin-left: 1em;
+	text-decoration:none;
+	color: #222;
+	display:block;
+	display:inline-block;
+	*display:inline;
+	zoom:1;
+
+	height: 32px;
+	line-height: 32px;
+}
+
+
+/*** 功能区 ******************************************************************/
+body>article.fun>a,body>article.fun>a>span,body>article.fun>a>em{
+	display:block;
+	display:inline-block;
+	*display:inline;
+	zoom:1;
+	overflow: hidden;
+}
+
+body>article.fun{
+	white-space:nowrap;
+}
+body>article.fun>a{	
+	padding: 0;
+	margin: 0;
+	width: 25%;
+	height: 40px;
+}
+body>article.fun>a>span{
+	width: 40px;
+	height: 40px;
+}
+body>article.fun>a>em{
+	padding-left: 0.2em;
+	height: 40px;
+	line-height: 40px;
+	color: #3775b5;
+	font-style: normal;
+}
+
+
+/*** 评论区 ******************************************************************/
+section.comment>ul{
+	width: 100%;
+	overflow: hidden;
+}
+section.comment>ul>li{
+	padding: 1em 0;
+	border-top:1px solid #ccc;
+}
+section.comment>ul>li>div.avatar{
+	float: left;
+	width: 3em;
+	height: 3em;
+	-moz-border-radius:1.5em;
+	-webkit-border-radius:1.5em;
+	border-radius:1.5em;
+	background-color: #f90;
+	overflow: hidden;
+}
+section.comment>ul>li>div.avatar>img{
+	width: 100%;
+	height: 100%;
+}
+section.comment>ul>li>div.content{
+	margin-left: 4em;
+	text-align: left;
+}
+section.comment>ul>li>div.content>h3{
+	font-weight: normal;
+	padding:0;
+	margin: 0;
+	font-size: 1.2em;
+	color: #777;
+}
+section.comment>ul>li>div.content>h3>span{
+	float: right;
+	font-size: 0.7em;
+}
+section.comment>ul>li>div.content>div{
+	padding-top: 0.4em;
+	line-height: 1.4em;
+}
+
+/*** 底部区0812 ******************************************************************/
+footer{
+	position: fixed;
+	bottom: 0;
+	z-index: 999;
+	width: 100%;
+	overflow: hidden;
+	-moz-opacity:0.96;
+	opacity:0.96;
+}
+
+footer>a{
+	width:98%;
+	display:block;
+	display:inline-block;
+	*display:inline;
+	zoom:1;
+
+	padding:0.4em 0;
+	background-color: #fff;
+	color: #E8295F;
+	text-decoration:none; 
+	font-size: 1.2em;
+
+	-moz-border-radius:0.5em;
+	-webkit-border-radius:0.5em;
+	border-radius:0.5em;
+	border:1px solid #E8295F;
+}

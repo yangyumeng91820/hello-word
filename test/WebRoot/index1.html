@@ -1,0 +1,76 @@
+
+<!doctype html>
+<head>
+<meta charset="utf-8">
+<!-- Sets initial viewport load and disables zooming  -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no" />
+<!-- IE10 and IE11 on Windows Phone have a small tap highlight when you tap an element.Adding this meta tag removes this. -->
+<meta name="msapplication-tap-highlight" content="no" />
+<title>衣橱大爆炸</title>
+<link rel="stylesheet" href="http://m.dyidy.com/css/style.css" type="text/css" />
+<link rel="stylesheet" href="http://m.dyidy.com/css/swiper-3.3.1.min.css" type="text/css" />
+<script type="text/javascript" src="http://m.dyidy.com/css/swiper-3.3.1.min.js"></script>
+<style type="text/css">
+.enter_01{ display:block;width:98%; height:35px;line-height:35px;border:1px solid #E8295F;position:fixed; bottom:5px; left:1%; z-index:5;text-align:center; border-radius:5px;font-size:20px;color:#E8295F; background:#fff; text-decoration:none;}
+
+</style>
+</head>
+<body>
+	<article class="box show swiper-container">
+		<div class="swiper-wrapper">
+        	 <div class="swiper-slide">
+                <img src="http://dyidy.oss-cn-shanghai.aliyuncs.com/images%2FC4397348-0F87-4810-B5A1-C43B0E25992C.jpg">
+                </div>
+        	 <div class="swiper-slide">
+                <img src="http://dyidy.oss-cn-shanghai.aliyuncs.com/images%2FDC366337-451F-4113-96BD-254E363D0C37.jpg">
+             </div>
+         </div>
+	    <!-- 如果需要分页器 -->
+	    <div class="swiper-pagination"></div>
+	</article>
+
+	<article class="box briefing">
+		 HM折扣力度不要太大，原价199，现价50拿下一双小白鞋。今天第一天穿，有点磨脚哎！	
+    </article>
+	<script>
+		var mySwiper = new Swiper ('.swiper-container', {
+			direction: 'horizontal',
+			loop: false,
+			autoplay : 3000,
+			autoplayDisableOnInteraction : false,
+
+			// 如果需要分页器
+			pagination: '.swiper-pagination',
+		});
+	 </script>
+
+	<article class="box tag">
+		<div class="icon"><img src="http://m.dyidy.com/images/tag.png"/></div>
+		<div class="content">
+		    <a href="Javascript:void(0);"></a>
+		    <a href="Javascript:void(0);"></a>
+		</div>
+	</article>
+
+	<article class="box fun">
+		<a href="Javascript:void(0);"><span><img src="http://m.dyidy.com/images/like1.png" /></span><em>1</em></a>
+		<a href="Javascript:void(0);"><span><img src="http://m.dyidy.com/images/comment1.png" /></span><em>0</em></a>
+		<a href="Javascript:void(0);"><span><img src="http://m.dyidy.com/images/share1.png" /></span><em>分享</em></a>
+		<a href="Javascript:void(0);"><span><img src="http://m.dyidy.com/images/more1.png" /></span><em>编辑</em></a>
+	</article>
+
+	<section class="box comment">
+		<ul></ul>
+	</section>
+	<a href="index2.html" class="enter_01" >马上拥有属于你的衣橱</a>
+
+  <!--   <script type="text/javascript">
+        var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+        document.write(unescape("%3Cspan id='cnzz_stat_icon_1259923645'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1259923645' type='text/javascript'%3E%3C/script%3E"));
+    </script> -->
+</body>
+</html>
